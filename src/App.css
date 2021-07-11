@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.nav-bar{
+  background-color: #48483A;
+}a{
+  color: #74776B !important;
+}
+
+li a {
+  color: #DFF8EB !important;
+  }
+
+.size{
+  width: 30%;
+}
