@@ -57,9 +57,7 @@ const NavBar2 = (props) => {
                   className="dark-text"
                 >
                   This Project's Repository
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>Reset</DropdownItem>
+                </DropdownItem>{" "}
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
