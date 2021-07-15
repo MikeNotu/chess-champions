@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/chess-champions/static/css/main.badc0066.chunk.css",
-    "main.js": "/chess-champions/static/js/main.1d7095f7.chunk.js",
-    "main.js.map": "/chess-champions/static/js/main.1d7095f7.chunk.js.map",
-    "runtime-main.js": "/chess-champions/static/js/runtime-main.ee73307a.js",
-    "runtime-main.js.map": "/chess-champions/static/js/runtime-main.ee73307a.js.map",
-    "static/js/2.0919c82e.chunk.js": "/chess-champions/static/js/2.0919c82e.chunk.js",
-    "static/js/2.0919c82e.chunk.js.map": "/chess-champions/static/js/2.0919c82e.chunk.js.map",
+    "main.css": "/chess-champions/static/css/main.5ce14668.chunk.css",
+    "main.js": "/chess-champions/static/js/main.63c714dc.chunk.js",
+    "main.js.map": "/chess-champions/static/js/main.63c714dc.chunk.js.map",
+    "runtime-main.js": "/chess-champions/static/js/runtime-main.0ed5ca6d.js",
+    "runtime-main.js.map": "/chess-champions/static/js/runtime-main.0ed5ca6d.js.map",
+    "static/js/2.3fb4ebfd.chunk.js": "/chess-champions/static/js/2.3fb4ebfd.chunk.js",
+    "static/js/2.3fb4ebfd.chunk.js.map": "/chess-champions/static/js/2.3fb4ebfd.chunk.js.map",
     "static/css/3.4be38407.chunk.css": "/chess-champions/static/css/3.4be38407.chunk.css",
-    "static/js/3.63cfd6c0.chunk.js": "/chess-champions/static/js/3.63cfd6c0.chunk.js",
-    "static/js/3.63cfd6c0.chunk.js.map": "/chess-champions/static/js/3.63cfd6c0.chunk.js.map",
+    "static/js/3.b5d2154f.chunk.js": "/chess-champions/static/js/3.b5d2154f.chunk.js",
+    "static/js/3.b5d2154f.chunk.js.map": "/chess-champions/static/js/3.b5d2154f.chunk.js.map",
     "static/js/4.625597c1.chunk.js": "/chess-champions/static/js/4.625597c1.chunk.js",
     "static/js/4.625597c1.chunk.js.map": "/chess-champions/static/js/4.625597c1.chunk.js.map",
     "static/js/5.f691f88d.chunk.js": "/chess-champions/static/js/5.f691f88d.chunk.js",
@@ -18,17 +18,17 @@
     "static/js/6.90883c62.chunk.js.map": "/chess-champions/static/js/6.90883c62.chunk.js.map",
     "index.html": "/chess-champions/index.html",
     "static/css/3.4be38407.chunk.css.map": "/chess-champions/static/css/3.4be38407.chunk.css.map",
-    "static/css/main.badc0066.chunk.css.map": "/chess-champions/static/css/main.badc0066.chunk.css.map",
-    "static/js/2.0919c82e.chunk.js.LICENSE.txt": "/chess-champions/static/js/2.0919c82e.chunk.js.LICENSE.txt",
-    "static/js/3.63cfd6c0.chunk.js.LICENSE.txt": "/chess-champions/static/js/3.63cfd6c0.chunk.js.LICENSE.txt",
+    "static/css/main.5ce14668.chunk.css.map": "/chess-champions/static/css/main.5ce14668.chunk.css.map",
+    "static/js/2.3fb4ebfd.chunk.js.LICENSE.txt": "/chess-champions/static/js/2.3fb4ebfd.chunk.js.LICENSE.txt",
+    "static/js/3.b5d2154f.chunk.js.LICENSE.txt": "/chess-champions/static/js/3.b5d2154f.chunk.js.LICENSE.txt",
     "static/js/4.625597c1.chunk.js.LICENSE.txt": "/chess-champions/static/js/4.625597c1.chunk.js.LICENSE.txt",
     "static/js/5.f691f88d.chunk.js.LICENSE.txt": "/chess-champions/static/js/5.f691f88d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ee73307a.js",
+    "static/js/runtime-main.0ed5ca6d.js",
     "static/css/3.4be38407.chunk.css",
-    "static/js/3.63cfd6c0.chunk.js",
-    "static/css/main.badc0066.chunk.css",
-    "static/js/main.1d7095f7.chunk.js"
+    "static/js/3.b5d2154f.chunk.js",
+    "static/css/main.5ce14668.chunk.css",
+    "static/js/main.63c714dc.chunk.js"
   ]
 }
