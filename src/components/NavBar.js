@@ -4,11 +4,9 @@ export const NavBar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg nav-bar">
-        {/* <nav className="navbar navbar-expand-lg navbar-light bg-light"> */}
-
         <div className="container-fluid">
-          <a className="navbar-brand" href="www.google.com">
-            Navbar
+          <a className="navbar-brand" href="/">
+            ChessChampions
           </a>
           <button
             className="navbar-toggler"
@@ -27,52 +25,39 @@ export const NavBar = () => {
                 <a
                   className="nav-link active"
                   aria-current="page"
-                  href="www.google.com"
+                  href="https://bateman.studio/"
                 >
-                  Home
+                  My Website
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="www.google.com">
-                  Features
+                <a className="nav-link" href="https://github.com/MikeNotu">
+                  My GitHub
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="www.google.com">
-                  Pricing
-                </a>
-              </li>
-              <li className="nav-item dropdown">
                 <a
-                  className="nav-link dropdown-toggle"
-                  href="www.google.com"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
+                  className="nav-link"
+                  href="https://www.linkedin.com/in/michael-bateman-979695194/"
                 >
-                  Dropdown link
+                  My LinkedIn
                 </a>
-                <ul
-                  className="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  href="https://github.com/MikeNotu/chess-champions"
                 >
-                  <li>
-                    <a className="dropdown-item" href="www.google.com">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="www.google.com">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="www.google.com">
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
+                  This Project's Repository
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  href="https://www.chess.com/news/view/published-data-api"
+                >
+                  API Used
+                </a>
               </li>
             </ul>
           </div>

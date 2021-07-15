@@ -7,9 +7,6 @@ import Fade from "@material-ui/core/Fade"
 
 const useStyles = makeStyles((theme) => ({
   modal: {
-    // display: "flex",
-    // alignItems: "center",
-    // justifyContent: "center",
     position: "relative",
     top: "15% !important",
     left: "20% !important",
@@ -22,11 +19,6 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: theme.shadows[5],
     padding: theme.spacing(2, 4, 3),
   },
-  red: {
-    // position: "relative",
-    // width: "80%",
-    // left: "30%",
-  },
 }))
 
 export const Table1 = () => {
@@ -35,7 +27,6 @@ export const Table1 = () => {
 
   const handleOpen = () => {
     setOpen(true)
-    console.log(sr)
   }
 
   const handleClose = () => {
@@ -67,20 +58,22 @@ export const Table1 = () => {
       .then((resp) => resp.json())
       .then((resp) => {
         setData(resp.live_blitz)
-        console.log(resp.live_blitz)
       })
   }, [])
 
   function toggleModalWithData(selectedRow) {
-    console.log(selectedRow)
     setSr(selectedRow)
     handleOpen()
   }
 
   return (
     <div className="size">
+      {/* <p className="lead">
+        Try clicking a Row from this table (Press the Icon on the top-right to
+        export this table(PDF and CSV))
+      </p> */}
       <MaterialTable
-        title="Chess.com Blitz Ranking"
+        title="Chess.com Blitz Ranking."
         data={data}
         columns={columns}
         onRowClick={(evt, selectedRow) => toggleModalWithData(selectedRow)}
@@ -89,19 +82,10 @@ export const Table1 = () => {
           paging: false,
           filtering: true,
           exportButton: true,
-          //   actionsColumnIndex: -1,
           maxBodyHeight: "30em",
           pageSize: 10,
           pageSizeOptions: [10, 25, 50],
         }}
-
-        // localization={{
-        //   body: {
-        //     editRow: {
-        //       deleteText: "¿Esta seguro que desea eliminar a este usuario?",
-        //     },
-        //   },
-        // }}
       />
       <Modal
         aria-labelledby="transition-modal-title"
