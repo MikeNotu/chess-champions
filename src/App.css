@@ -52,6 +52,10 @@ li a {
   width: 100%;
 }
 
+.dark-text {
+  color: #282c34 !important;
+}
+
 .modal-smallimage {
   position: relative;
   width: 14em;

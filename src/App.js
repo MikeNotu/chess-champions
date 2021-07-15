@@ -1,14 +1,14 @@
 import "./App.css"
-import { NavBar } from "./components/NavBar"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Table1 } from "./components/Table1"
 import { Challenge } from "./components/Challenge"
 import { Jumbo } from "./components/Jumbo"
+import NavBar2 from "./components/NavBar2"
 
 function App(props) {
   return (
     <div className="App">
-      <NavBar />
+      <NavBar2 />
       {/* <br />
       <br /> */}
       <Jumbo />
